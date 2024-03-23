@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
-using TestYaMed.Enums;
+﻿using TestYaMed.Enums;
 
 namespace TestYaMed.Models
 {
@@ -17,21 +11,24 @@ namespace TestYaMed.Models
         /// Имя.
         /// </summary>
         private string Name { get; set; }
+
         /// <summary>
-        /// Возраст
+        /// Возраст.
         /// </summary>
         private int Age { get; set; }
+
         /// <summary>
         /// Пол.
         /// </summary>
         private Gender Gender { get; set; }
+
         /// <summary>
         /// Кошелек.
         /// </summary>
         private List<Money> Wallet { get; set; }
 
         /// <summary>
-        /// 
+        /// Конструктор.
         /// </summary>
         /// <param name="name">Имя.</param>
         /// <param name="age">Возраст.</param>
@@ -91,6 +88,7 @@ namespace TestYaMed.Models
                 throw new InvalidOperationException("Невозможно потратить деньги, отсутсвует кошелек");
             }
         }
+
         /// <summary>
         /// Вывод информации о пользователе.
         /// </summary>
@@ -107,6 +105,7 @@ namespace TestYaMed.Models
 
             Console.WriteLine();
         }
+
         /// <summary>
         /// Перевод Д/С.
         /// </summary>

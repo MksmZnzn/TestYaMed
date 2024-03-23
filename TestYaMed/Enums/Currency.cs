@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TestYaMed.Enums
+﻿namespace TestYaMed.Enums
 {
-
     /// <summary>
     /// Валюта.
     /// </summary>
@@ -16,7 +9,15 @@ namespace TestYaMed.Enums
         /// Доллары.
         /// </summary>
         USD = 1,
+
+        /// <summary>
+        /// Рубли.
+        /// </summary>
         RUB = 2,
+
+        /// <summary>
+        /// Евро.
+        /// </summary>
         EUR = 3
     }
 }
