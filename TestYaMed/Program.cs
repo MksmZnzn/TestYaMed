@@ -25,7 +25,7 @@ namespace YaMed
                 Console.WriteLine("Добавляю для Валерии 5000 долларов.");
                 lera.AddMoney(moneyUSD); 
                 
-                Console.WriteLine("Добавляю для Валерии 5000 долларов.");
+                Console.WriteLine("Добавляю для Валерии 300000 рублей.");
                 lera.AddMoney(moneyZP);
 
                 lera.PrintInfo();
